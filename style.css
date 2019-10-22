@@ -1,0 +1,44 @@
+* {
+  margin:0;
+  padding:0;
+}
+#game {
+  width:100%;
+  display: block;
+}
+#canvas {
+  border:5px solid rgb(48,48,48);
+  background:rgb(230,230,230);
+  display: block;
+  margin:0 auto;
+  background: url('img1.png');
+}
+.text {
+width:20px;
+background: none;
+  position: absolute;
+  top:0px;
+  font-weight:bold;
+  font-size: 1.5em;
+  color: red;
+  border:none;
+right:120px;
+}
+
+.text + .text {
+    width:120px;
+  
+  color : red;
+  right : 0px;
+}
+
+#gOver {
+  background: rgba(255,255,255,.5);
+  text-align: center;
+  width :400px;
+  height : 400px;
+  position: absolute;
+  top:30%;
+  left:30%;
+  display:none;
+}
